@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 
 const db = mysql.createConnection({
   host: "63.250.32.230",
-  user: "nafisbd_invventory",
+  user: "sqaaonli_invventory",
   password: "ajmdgptw1",
-  database: "nafisbd_invventory",
+  database: "sqaaonli_invventory",
 });
 
 db.connect((err) => {
